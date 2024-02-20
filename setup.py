@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='awsume-onepassword-plugin',
+    name='awsume-1password-gaiden',
     version='0.0.1',
     description='Fetches AWS access keys and MFA from 1Password',
     entry_points={
@@ -11,6 +11,6 @@ setup(
     },
     author='Sam Simpson',
     author_email='pypi@sams.wtf',
-    url='https://github.com/samsimpson1/awsume-onepassword-plugin',
+    url='https://github.com/samsimpson1/awsume-1password',
     py_modules=['onepassword'],
 )
