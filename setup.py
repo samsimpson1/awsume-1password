@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='awsume-1password-gaiden',
-    version='0.0.1',
+    version='0.0.2',
     long_description='Fetches AWS access keys and MFA from 1Password',
     description='Fetches AWS access keys and MFA from 1Password',
     entry_points={
