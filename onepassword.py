@@ -69,6 +69,9 @@ def pre_get_credentials(config, arguments, profiles):
     logger.error("onepassword config is missing")
     return
 
+  if not op_config.get("mfa_enabled", True):
+    return
+
   vault = op_config.get("vault")
   item = op_config.get("item")
 
